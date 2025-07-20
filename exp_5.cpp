@@ -1,3 +1,5 @@
+%This is the code for the experiment no 5 i have implemented all of the sub questions/programs in a switch case for the users ease.
+
 #include <iostream>
 using namespace std;
 
