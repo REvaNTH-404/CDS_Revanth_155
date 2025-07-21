@@ -62,4 +62,33 @@ To implement control structures in C++.
 - *switch-case* control flow
 - Importance of conditional execution in programming logic
 
+### ✅ Expt 6: Loops(for and While)
+
+*Objective*:  
+To implement decision making statements Loops in C++.
+
+*Theory*:
+Loop Constructs
+for loops handle repetitive tasks like printing numbers or strings.
+
+continue inside a loop skips the current iteration and proceeds with the next, useful for skipping certain values (e.g., 3 and 5)
+GeeksforGeeks
+Simplilearn.com
+.
+
+3. Password Authentication Logic
+This is a simple “something you know” scenario: the user sets a password, then must correctly re-enter it within 3 attempts
+DEV Community
++3
+logintc.com
++3
+GeeksforGeeks
++3
+.
+
+If the guess matches, access is granted immediately; otherwise, the user gets feedback and another chance.
+
+Once attempts run out, the program denies access and ends.
+
+
 ---
