@@ -126,3 +126,96 @@ int main() {
 
     return 0;
 }
+
+
+//output
+/*Enter the question number (1-10): 1
+0
+2
+4
+6
+8
+
+Enter the question number (1-10): 2
+SIT
+SIT
+SIT
+SIT
+SIT
+
+Enter the question number (1-10): 3
+1
+2
+4
+6
+7
+8
+9
+10
+
+Enter the question number (1-10): 4
+*
+**
+***
+****
+*****
+
+Enter the question number (1-10): 5
+*****
+****
+***
+**
+*
+
+Enter the question number (1-10): 6
+    *
+   **
+  ***
+ ****
+*****
+
+
+Enter the question number (1-10): 7
+    *
+   ***
+  *****
+ *******
+*********
+
+Enter the question number (1-10): 8
+1 
+2 3 
+4 5 6 
+7 8 9 10 
+
+Enter the question number (1-10): 9
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+
+Enter the question number (1-10): 10
+SET Password: hello
+Enter password: hi
+Incorrect (1/3).
+Enter password: bad
+Incorrect (2/3).
+Enter password: hello
+Access granted.
+*/
