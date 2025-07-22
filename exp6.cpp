@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int question;
-    cout << "Enter the question number (1-3, 4, 7, 9-10): ";
+    cout << "Enter the question number (1-10): ";
     cin >> question;
 
     switch(question) {
@@ -28,9 +28,8 @@ int main() {
             break;
         }
         case 4: {  // Right-angled triangle star pattern
-            int n;
-            cout << "Enter n for triangle (case 4): ";
-            cin >> n;
+            int n =5;
+            
             for(int i = 1; i <= n; i++) {
                 for(int j = 1; j <= i; j++)
                     cout << "*";
@@ -38,16 +37,56 @@ int main() {
             }
             break;
         }
+        case 5: { // Inverted right-angled triangle star pattern
+            int n=5;
+            
+            for(int i = n; i >= 1; i--) {
+                for(int j = 1; j <= i; j++)
+                    cout << "*";
+                cout << "\n";
+            }
+            break;
+        }
+        case 6: { // Hollow square star pattern
+            int n;
+            int rows = 5;
+
+            for (int i = 1; i <= rows; ++i) {
+                // Print spaces
+                for (int j = rows - i; j > 0; --j) {
+                    cout << " ";
+                }
+                // Print stars
+                for (int k = 1; k <= i; ++k) {
+                    cout << "*";
+                }
+                cout << endl;
+            }
+            break;
+        }
         case 7: { // Centered star pyramid
-            int rows;
-            cout << "Enter rows for pyramid (case 7): ";
-            cin >> rows;
-            for(int i = 0; i < rows; i++) {
+            int rows =5;
+            
+            for(int i = 0; i < rows; i++) //lines
+            {
                 for(int j = 0; j < rows - i - 1; j++)
                     cout << " ";
                 for(int j = 0; j < 2 * i + 1; j++)
                     cout << "*";
                 cout << "\n";
+            }
+            break;
+        }
+        case 8: { // Prints ummbers in right angled patten
+            int rows = 4;   // Number of rows
+            int num = 1;    // Start printing from 1
+        
+            for (int i = 1; i <= rows; i++) {
+                for (int j = 1; j <= i; j++) {
+                    cout << num << " ";
+                    num++;
+                }
+                cout << endl;
             }
             break;
         }
